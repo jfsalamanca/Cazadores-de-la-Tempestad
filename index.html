@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cazadores de la Tempestad</title>
+    <style>
+        body {
+            font-family: 'Press Start 2P', cursive;
+            background-color: #222;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: url('tu_gif_header.gif') center center fixed;
+            background-size: cover;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #ff4500;
+            text-shadow: 2px 2px 4px #000;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #ff4500;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .video-container {
+            position: relative;
+            overflow: hidden;
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 100%;
+        }
+
+        footer {
+            background: url('tu_gif_footer.gif') center center fixed;
+            background-size: cover;
+            text-align: center;
+            padding: 10px;
+            font-size: 13px;
+            position: relative;
+        }
+
+        .footer-download-links {
+            position: absolute;
+            bottom: 5px;
+            right: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        .footer-download-links button {
+            margin-bottom: 5px;
+            border: 2px solid #fff;
+            padding: 5px 10px;
+            background-color: transparent;
+            color: #fff;
+            font-size: 12px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .footer-download-links button:hover {
+            background-color: #fff;
+            color: #333;
+        }
+
+        a {
+            color: #ff4500;
+            text-decoration: none;
+            margin: 10px;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #fff;
+        }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+</head>
+<body>
+    <header>
+        <h1>Cazadores de la Tempestad</h1>
+    </header>
+
+    <main>
+        <h2>¡Bienvenido a la página de mi juego de disparos favorito!</h2>
+        <p>En esta página, encontrarás información, reseñas y noticias sobre el emocionante mundo de los shooters. Prepárate para la acción y la estrategia.</p>
+        <p>No te pierdas las últimas actualizaciones y novedades sobre el juego.</p>
+
+        <h2>Introducción al videojuego</h2>
+        <p>Aquí tienes una introducción al emocionante mundo de nuestro videojuego favorito. ¡Disfruta del video!</p>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VZKCsZ2U27Y" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>Síguenos en las redes sociales:</p>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <div class="footer-download-links">
+            <button onclick="window.location.href='link_para_descarga_android'" title="Descargar en Android">
+                <img src="img/logo_android.png" alt="Android" width="30" height="30">
+                Descargar Android
+            </button>
+            <button onclick="window.location.href='link_para_descarga_ios'" title="Descargar en iOS">
+                <img src="img/logo_ios.png" alt="iOS" width="30" height="30">
+                Descargar iOS
+            </button>
+        </div>
+    </footer>
+</body>
+</html>
