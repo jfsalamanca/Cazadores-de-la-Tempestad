@@ -1,2 +1,2 @@
 # Juego-shooter
-Video Juego de Shooter
+Video Juego Cazadores de la Tempestad
